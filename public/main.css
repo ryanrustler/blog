@@ -1,0 +1,101 @@
+.body-one{
+
+background-image: url("https://i.imgur.com/R7N0Ax8.jpg");
+background-size: cover;
+font-size:30px;
+
+
+}
+.body-two{
+background-image: url("https://wallpapercave.com/wp/wp2527177.png");
+background-size: cover;
+
+}
+
+.body-three{
+background-image: url("http://paperlief.com/images/vegeta-drawing-wallpaper-2.jpg");
+background-size:cover;
+}
+.body-four{
+    background-image: url("http://getwallpapers.com/wallpaper/full/c/a/8/393029.jpg");
+    background-size:cover;
+
+}
+
+.body-five{
+    background-image: url("https://orig00.deviantart.net/358d/f/2017/104/1/6/mirai_trunks_dragon_ball_super_by_darkprinceah-db5s3q7.png");
+    background-size:cover;
+    color:#17B3F3;
+    font-size: 20px;
+}
+
+.body-six{
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRZwTWy8VJeSCTlj4imf5RtcN2TYW4sA7KIeW_ipboFdNOdsJ");
+    background-size: cover;
+}
+.body-seven{
+
+background-image: url("http://www.scalsys.com/wallpapers/goku-minimalist/goku-minimalist_796220.png");
+background-size: cover;
+
+}
+
+.body-8{
+
+    background-image: url("https://i.pinimg.com/originals/80/78/7c/80787c193c60cd969a922bc06c369999.jpg");
+    background-size: cover;
+
+}
+.div2{
+
+    float: right;
+    font-size: 30px;
+}
+.div3{
+
+    float: right;
+    font-size: 30px;
+    color:#F3D517;
+    margin-top:100px;
+}
+
+.div4{
+    float:right;
+    font-size: 20px;
+    color:#1166C6;
+    margin-right:100px;
+}
+.div-5{
+
+    float:right;
+    font-size:20px;
+    margin-right:100px;
+}
+.navbar-nav{
+
+    font-size:20px;
+}
+.div-seven{
+    font-size: 30px;
+}
+
+li{
+
+list-style:none ;
+}
+
+.header-two{
+    color:#2DDEF6  ;
+}
+
+.main{
+
+    margin-top: 300px;
+}
+
+.body-8{
+
+    color:#F6852D;
+    font-size:20px;
+}

@@ -1,0 +1,16 @@
+<body class = "body-seven">
+
+<div class = "div4">
+
+<% @posts.each do |posts| %>
+  Id: <%= posts.id %><br>
+  Title: <%= posts.title %><br>
+  Comment: <%= posts.comment %><br>
+<form action="/delete" method="post">
+  <input type="hidden" name="_method" value="DELETE"> 
+  <input type="submit" value="delete">
+</form>
+ <br />
+<% end %> 
+</div>
+</body>
