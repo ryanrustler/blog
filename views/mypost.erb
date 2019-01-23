@@ -1,11 +1,13 @@
+
+
 <body class = "body-8">
 <h1> My Post </h1>
-
-
 <% @posts.each do |post| %>
   Id: <%= post.id %><br>
   Title: <%= post.title %><br>
   Comment: <%= post.comment %><br>
+ <a href = "deletepost"> Delete </a>
 <% end %>
 </body>
+
 
