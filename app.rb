@@ -16,6 +16,7 @@ get '/' do
 end
 
 get '/signup' do
+
     erb :signup
 end
 
@@ -107,9 +108,9 @@ end
 post '/delete' do
     @user = User.find(session[:user_id])
     @post = Post.find_by(user_id: session[:user_id])
-    @post.delete
+  #  
     @user.destroy
-    redirect '/'
+    redirect "/"
 end
 
 
