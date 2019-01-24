@@ -110,6 +110,7 @@ post '/delete' do
     @post = Post.find_by(user_id: session[:user_id])
   #  
     @user.destroy
+    session[:user_id] = nil
     redirect "/"
 end
 
